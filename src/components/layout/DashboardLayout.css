@@ -1,0 +1,15 @@
+.dashboard-layout {
+  display: flex;
+}
+.main-content {
+  flex-grow: 1;
+  padding: 30px;
+  height: 100vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+.main-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

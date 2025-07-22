@@ -1,0 +1,26 @@
+.main-header {
+    height: 60px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* 버튼을 오른쪽으로 정렬 */
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.logout-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.logout-button:hover {
+    background-color: #5a6268;
+}
