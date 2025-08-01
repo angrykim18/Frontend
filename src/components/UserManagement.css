@@ -1,0 +1,58 @@
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  white-space: nowrap; /* 내용이 길어도 한 줄로 표시 */
+}
+
+.user-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.user-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.pagination span {
+  font-weight: bold;
+}
+.search-container {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.search-container input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
