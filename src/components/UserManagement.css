@@ -1,0 +1,76 @@
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px;
+  table-layout: fixed;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  white-space: nowrap; /* 내용이 길어도 한 줄로 표시 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.user-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.col-index { width: 60px; text-align: center; }
+.col-device-id { width: 15%; }
+.col-admin-id { width: 55px; }
+.col-name { width: 7%; }
+.col-group { width: 4%; }
+.col-status { width: 60px; text-align: center; }
+.col-start-date { width: 130px; }
+.col-end-date { width: 80px; }
+.col-remaining { width: 55px; text-align: center; }
+.col-adult { width: 30px; text-align: center; }
+.col-memo { width: 5%; }
+.col-ip { width: 100px; }
+.col-country { width: 120px; }
+.col-actions { width: 90px; text-align: center; }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.pagination span {
+  font-weight: bold;
+}
+.search-container {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.search-container input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
